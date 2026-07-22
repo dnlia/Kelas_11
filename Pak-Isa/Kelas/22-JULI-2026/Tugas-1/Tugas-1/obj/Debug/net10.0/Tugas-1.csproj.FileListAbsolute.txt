@@ -1,0 +1,14 @@
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\obj\Debug\net10.0\Tugas-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\obj\Debug\net10.0\Tugas-1.AssemblyInfoInputs.cache
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\obj\Debug\net10.0\Tugas-1.AssemblyInfo.cs
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\obj\Debug\net10.0\Tugas-1.csproj.CoreCompileInputs.cache
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\bin\Debug\net10.0\Tugas-1.exe
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\bin\Debug\net10.0\Tugas-1.deps.json
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\bin\Debug\net10.0\Tugas-1.runtimeconfig.json
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\bin\Debug\net10.0\Tugas-1.dll
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\bin\Debug\net10.0\Tugas-1.pdb
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\obj\Debug\net10.0\Tugas-1.dll
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\obj\Debug\net10.0\refint\Tugas-1.dll
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\obj\Debug\net10.0\Tugas-1.pdb
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\obj\Debug\net10.0\Tugas-1.genruntimeconfig.cache
+C:\Kelas_11\Pak-Isa\Kelas\22-JULI-2026\Tugas-1\Tugas-1\obj\Debug\net10.0\ref\Tugas-1.dll
