@@ -1,0 +1,14 @@
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\bin\Debug\net10.0\Percabangan.exe
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\bin\Debug\net10.0\Percabangan.deps.json
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\bin\Debug\net10.0\Percabangan.runtimeconfig.json
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\bin\Debug\net10.0\Percabangan.dll
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\bin\Debug\net10.0\Percabangan.pdb
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.AssemblyInfoInputs.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.AssemblyInfo.cs
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.csproj.CoreCompileInputs.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.dll
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\obj\Debug\net10.0\refint\Percabangan.dll
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.pdb
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.genruntimeconfig.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Dasar\Percabangan\Percabangan\obj\Debug\net10.0\ref\Percabangan.dll

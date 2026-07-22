@@ -1,0 +1,4 @@
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal 1.csproj.AssemblyReference.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form1Login.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form2Register.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal 1.csproj.GenerateResource.cache

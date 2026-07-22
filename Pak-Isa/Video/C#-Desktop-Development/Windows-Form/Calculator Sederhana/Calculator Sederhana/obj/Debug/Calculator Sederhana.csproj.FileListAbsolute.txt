@@ -1,0 +1,10 @@
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Calculator Sederhana\Calculator Sederhana\obj\Debug\Calculator Sederhana.csproj.AssemblyReference.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Calculator Sederhana\Calculator Sederhana\obj\Debug\Calculator_Sederhana.Form1.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Calculator Sederhana\Calculator Sederhana\obj\Debug\Calculator_Sederhana.Properties.Resources.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Calculator Sederhana\Calculator Sederhana\obj\Debug\Calculator Sederhana.csproj.GenerateResource.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Calculator Sederhana\Calculator Sederhana\obj\Debug\Calculator Sederhana.csproj.CoreCompileInputs.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Calculator Sederhana\Calculator Sederhana\bin\Debug\Calculator Sederhana.exe.config
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Calculator Sederhana\Calculator Sederhana\bin\Debug\Calculator Sederhana.exe
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Calculator Sederhana\Calculator Sederhana\bin\Debug\Calculator Sederhana.pdb
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Calculator Sederhana\Calculator Sederhana\obj\Debug\Calculator Sederhana.exe
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Calculator Sederhana\Calculator Sederhana\obj\Debug\Calculator Sederhana.pdb
