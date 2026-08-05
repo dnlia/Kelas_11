@@ -47,25 +47,37 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridJadwal = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KodePenerbangan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BandaraAsal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BandaraTujuan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Maskapai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tanggal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.WaktuKeberangkatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Durasi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HargaPerTiket = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.hapus = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.kodeTxt = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.simpanBtn = new System.Windows.Forms.Button();
+            this.batalBtn = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.hargaCount = new System.Windows.Forms.NumericUpDown();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.durasiTxt = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dariBox = new System.Windows.Forms.ComboBox();
+            this.destinasiBox = new System.Windows.Forms.ComboBox();
+            this.maskapaiBox = new System.Windows.Forms.ComboBox();
+            this.TanggalDate = new System.Windows.Forms.DateTimePicker();
+            this.waktuTime = new System.Windows.Forms.DateTimePicker();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -75,8 +87,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridJadwal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hargaCount)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -292,15 +304,119 @@
             this.label9.TabIndex = 1;
             this.label9.Text = "Semua jadwal penerbangan yang terdaftar akan muncul disini";
             // 
-            // dataGridView1
+            // dataGridJadwal
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(330, 162);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(915, 258);
-            this.dataGridView1.TabIndex = 2;
+            this.dataGridJadwal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridJadwal.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.KodePenerbangan,
+            this.BandaraAsal,
+            this.BandaraTujuan,
+            this.Maskapai,
+            this.Tanggal,
+            this.WaktuKeberangkatan,
+            this.Durasi,
+            this.HargaPerTiket,
+            this.edit,
+            this.hapus});
+            this.dataGridJadwal.Location = new System.Drawing.Point(330, 162);
+            this.dataGridJadwal.Name = "dataGridJadwal";
+            this.dataGridJadwal.RowHeadersWidth = 62;
+            this.dataGridJadwal.RowTemplate.Height = 28;
+            this.dataGridJadwal.Size = new System.Drawing.Size(915, 258);
+            this.dataGridJadwal.TabIndex = 2;
+            this.dataGridJadwal.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridJadwal_CellClick);
+            // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 8;
+            this.ID.Name = "ID";
+            this.ID.Visible = false;
+            this.ID.Width = 150;
+            // 
+            // KodePenerbangan
+            // 
+            this.KodePenerbangan.DataPropertyName = "KodePenerbangan";
+            this.KodePenerbangan.HeaderText = "KodePenerbangan";
+            this.KodePenerbangan.MinimumWidth = 8;
+            this.KodePenerbangan.Name = "KodePenerbangan";
+            this.KodePenerbangan.Width = 150;
+            // 
+            // BandaraAsal
+            // 
+            this.BandaraAsal.DataPropertyName = "BandaraAsal";
+            this.BandaraAsal.HeaderText = "Keberangkatan";
+            this.BandaraAsal.MinimumWidth = 8;
+            this.BandaraAsal.Name = "BandaraAsal";
+            this.BandaraAsal.Width = 150;
+            // 
+            // BandaraTujuan
+            // 
+            this.BandaraTujuan.DataPropertyName = "BandaraTujuan";
+            this.BandaraTujuan.HeaderText = "Tujuan";
+            this.BandaraTujuan.MinimumWidth = 8;
+            this.BandaraTujuan.Name = "BandaraTujuan";
+            this.BandaraTujuan.Width = 150;
+            // 
+            // Maskapai
+            // 
+            this.Maskapai.DataPropertyName = "Maskapai";
+            this.Maskapai.HeaderText = "Maskapai";
+            this.Maskapai.MinimumWidth = 8;
+            this.Maskapai.Name = "Maskapai";
+            this.Maskapai.Width = 150;
+            // 
+            // Tanggal
+            // 
+            this.Tanggal.DataPropertyName = "Tanggal";
+            this.Tanggal.HeaderText = "Tanggal Keberangkatan";
+            this.Tanggal.MinimumWidth = 8;
+            this.Tanggal.Name = "Tanggal";
+            this.Tanggal.Width = 150;
+            // 
+            // WaktuKeberangkatan
+            // 
+            this.WaktuKeberangkatan.DataPropertyName = "WaktuKeberangkatan";
+            this.WaktuKeberangkatan.HeaderText = "Waktu Keberangkatan";
+            this.WaktuKeberangkatan.MinimumWidth = 8;
+            this.WaktuKeberangkatan.Name = "WaktuKeberangkatan";
+            this.WaktuKeberangkatan.Width = 150;
+            // 
+            // Durasi
+            // 
+            this.Durasi.DataPropertyName = "Durasi";
+            this.Durasi.HeaderText = "Durasi Penerbangan";
+            this.Durasi.MinimumWidth = 8;
+            this.Durasi.Name = "Durasi";
+            this.Durasi.Width = 150;
+            // 
+            // HargaPerTiket
+            // 
+            this.HargaPerTiket.DataPropertyName = "HargaPerTiket";
+            this.HargaPerTiket.HeaderText = "Harga Per Tiket";
+            this.HargaPerTiket.MinimumWidth = 8;
+            this.HargaPerTiket.Name = "HargaPerTiket";
+            this.HargaPerTiket.Width = 150;
+            // 
+            // edit
+            // 
+            this.edit.HeaderText = "";
+            this.edit.MinimumWidth = 8;
+            this.edit.Name = "edit";
+            this.edit.Text = "Edit";
+            this.edit.UseColumnTextForButtonValue = true;
+            this.edit.Width = 150;
+            // 
+            // hapus
+            // 
+            this.hapus.HeaderText = "";
+            this.hapus.MinimumWidth = 8;
+            this.hapus.Name = "hapus";
+            this.hapus.Text = "Hapus";
+            this.hapus.UseColumnTextForButtonValue = true;
+            this.hapus.Width = 150;
             // 
             // label10
             // 
@@ -312,13 +428,14 @@
             this.label10.TabIndex = 1;
             this.label10.Text = "Kode Penerbangan";
             // 
-            // textBox1
+            // kodeTxt
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(493, 443);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(258, 31);
-            this.textBox1.TabIndex = 3;
+            this.kodeTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kodeTxt.Location = new System.Drawing.Point(493, 443);
+            this.kodeTxt.Name = "kodeTxt";
+            this.kodeTxt.Size = new System.Drawing.Size(258, 31);
+            this.kodeTxt.TabIndex = 3;
+            this.kodeTxt.Text = "__-____";
             // 
             // label11
             // 
@@ -340,25 +457,27 @@
             this.label15.TabIndex = 1;
             this.label15.Text = "Tanggal";
             // 
-            // button1
+            // simpanBtn
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Location = new System.Drawing.Point(1112, 644);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 39);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Simpan";
-            this.button1.UseVisualStyleBackColor = false;
+            this.simpanBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.simpanBtn.Location = new System.Drawing.Point(1112, 644);
+            this.simpanBtn.Name = "simpanBtn";
+            this.simpanBtn.Size = new System.Drawing.Size(118, 39);
+            this.simpanBtn.TabIndex = 5;
+            this.simpanBtn.Text = "Simpan";
+            this.simpanBtn.UseVisualStyleBackColor = false;
+            this.simpanBtn.Click += new System.EventHandler(this.simpanBtn_Click);
             // 
-            // button2
+            // batalBtn
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button2.Location = new System.Drawing.Point(975, 644);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 39);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Batal";
-            this.button2.UseVisualStyleBackColor = false;
+            this.batalBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.batalBtn.Location = new System.Drawing.Point(975, 644);
+            this.batalBtn.Name = "batalBtn";
+            this.batalBtn.Size = new System.Drawing.Size(118, 39);
+            this.batalBtn.TabIndex = 5;
+            this.batalBtn.Text = "Batal";
+            this.batalBtn.UseVisualStyleBackColor = false;
+            this.batalBtn.Click += new System.EventHandler(this.batalBtn_Click);
             // 
             // label14
             // 
@@ -380,49 +499,47 @@
             this.label12.TabIndex = 1;
             this.label12.Text = "Maskapai";
             // 
-            // numericUpDown2
+            // hargaCount
             // 
-            this.numericUpDown2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown2.Location = new System.Drawing.Point(961, 589);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(269, 34);
-            this.numericUpDown2.TabIndex = 4;
+            this.hargaCount.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaCount.Location = new System.Drawing.Point(961, 589);
+            this.hargaCount.Maximum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            0});
+            this.hargaCount.Name = "hargaCount";
+            this.hargaCount.Size = new System.Drawing.Size(269, 34);
+            this.hargaCount.TabIndex = 4;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(785, 489);
+            this.label13.Location = new System.Drawing.Point(785, 492);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(170, 25);
             this.label13.TabIndex = 1;
             this.label13.Text = "Waktu Penerbangan";
             // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(961, 489);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(269, 31);
-            this.textBox4.TabIndex = 3;
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(785, 542);
+            this.label16.Location = new System.Drawing.Point(785, 541);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(170, 25);
             this.label16.TabIndex = 1;
             this.label16.Text = "Durasi Penerbangan";
             // 
-            // textBox5
+            // durasiTxt
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(961, 541);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(269, 31);
-            this.textBox5.TabIndex = 3;
+            this.durasiTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.durasiTxt.Location = new System.Drawing.Point(961, 539);
+            this.durasiTxt.Name = "durasiTxt";
+            this.durasiTxt.Size = new System.Drawing.Size(269, 31);
+            this.durasiTxt.TabIndex = 3;
+            this.durasiTxt.Text = "__ Jam __ Menit";
             // 
             // label17
             // 
@@ -434,40 +551,48 @@
             this.label17.TabIndex = 1;
             this.label17.Text = "Harga per Tiket";
             // 
-            // comboBox1
+            // dariBox
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(493, 493);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(258, 33);
-            this.comboBox1.TabIndex = 6;
+            this.dariBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dariBox.FormattingEnabled = true;
+            this.dariBox.Location = new System.Drawing.Point(493, 493);
+            this.dariBox.Name = "dariBox";
+            this.dariBox.Size = new System.Drawing.Size(258, 33);
+            this.dariBox.TabIndex = 6;
             // 
-            // comboBox2
+            // destinasiBox
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(493, 541);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(258, 33);
-            this.comboBox2.TabIndex = 6;
+            this.destinasiBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.destinasiBox.FormattingEnabled = true;
+            this.destinasiBox.Location = new System.Drawing.Point(493, 541);
+            this.destinasiBox.Name = "destinasiBox";
+            this.destinasiBox.Size = new System.Drawing.Size(258, 33);
+            this.destinasiBox.TabIndex = 6;
             // 
-            // comboBox3
+            // maskapaiBox
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(493, 591);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(258, 33);
-            this.comboBox3.TabIndex = 6;
+            this.maskapaiBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskapaiBox.FormattingEnabled = true;
+            this.maskapaiBox.Location = new System.Drawing.Point(493, 591);
+            this.maskapaiBox.Name = "maskapaiBox";
+            this.maskapaiBox.Size = new System.Drawing.Size(258, 33);
+            this.maskapaiBox.TabIndex = 6;
             // 
-            // dateTimePicker1
+            // TanggalDate
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(961, 445);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(269, 31);
-            this.dateTimePicker1.TabIndex = 7;
+            this.TanggalDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TanggalDate.Location = new System.Drawing.Point(961, 445);
+            this.TanggalDate.Name = "TanggalDate";
+            this.TanggalDate.Size = new System.Drawing.Size(269, 31);
+            this.TanggalDate.TabIndex = 7;
+            // 
+            // waktuTime
+            // 
+            this.waktuTime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.waktuTime.Location = new System.Drawing.Point(961, 492);
+            this.waktuTime.Name = "waktuTime";
+            this.waktuTime.Size = new System.Drawing.Size(269, 31);
+            this.waktuTime.TabIndex = 7;
             // 
             // Form6JadwalPenerbangan
             // 
@@ -475,24 +600,24 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1266, 719);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.waktuTime);
+            this.Controls.Add(this.TanggalDate);
+            this.Controls.Add(this.maskapaiBox);
+            this.Controls.Add(this.destinasiBox);
+            this.Controls.Add(this.dariBox);
+            this.Controls.Add(this.batalBtn);
+            this.Controls.Add(this.simpanBtn);
+            this.Controls.Add(this.hargaCount);
+            this.Controls.Add(this.durasiTxt);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.kodeTxt);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridJadwal);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -502,6 +627,7 @@
             this.Name = "Form6JadwalPenerbangan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bromo Airlines - Admin";
+            this.Load += new System.EventHandler(this.Form6JadwalPenerbangan_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -513,8 +639,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridJadwal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hargaCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -540,24 +666,36 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridJadwal;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox kodeTxt;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button simpanBtn;
+        private System.Windows.Forms.Button batalBtn;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown hargaCount;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox durasiTxt;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.ComboBox dariBox;
+        private System.Windows.Forms.ComboBox destinasiBox;
+        private System.Windows.Forms.ComboBox maskapaiBox;
+        private System.Windows.Forms.DateTimePicker TanggalDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn KodePenerbangan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BandaraAsal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BandaraTujuan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Maskapai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tanggal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn WaktuKeberangkatan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Durasi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HargaPerTiket;
+        private System.Windows.Forms.DataGridViewButtonColumn edit;
+        private System.Windows.Forms.DataGridViewButtonColumn hapus;
+        private System.Windows.Forms.DateTimePicker waktuTime;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

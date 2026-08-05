@@ -30,21 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2Register));
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.usernameTxt = new System.Windows.Forms.TextBox();
+            this.daftarBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.namaTxt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.phoneTxt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.passwordTxt = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.lahirDate = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,36 +58,25 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Daftar Akun";
             // 
-            // textBox1
+            // usernameTxt
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(174, 129);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(318, 31);
-            this.textBox1.TabIndex = 1;
+            this.usernameTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernameTxt.Location = new System.Drawing.Point(174, 129);
+            this.usernameTxt.Name = "usernameTxt";
+            this.usernameTxt.Size = new System.Drawing.Size(318, 31);
+            this.usernameTxt.TabIndex = 1;
             // 
-            // button1
+            // daftarBtn
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(376, 356);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Daftar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(522, 45);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(366, 340);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.daftarBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.daftarBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.daftarBtn.Location = new System.Drawing.Point(376, 356);
+            this.daftarBtn.Name = "daftarBtn";
+            this.daftarBtn.Size = new System.Drawing.Size(116, 35);
+            this.daftarBtn.TabIndex = 3;
+            this.daftarBtn.Text = "Daftar";
+            this.daftarBtn.UseVisualStyleBackColor = false;
+            this.daftarBtn.Click += new System.EventHandler(this.daftarBtn_Click);
             // 
             // label2
             // 
@@ -109,13 +98,13 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Username";
             // 
-            // textBox2
+            // namaTxt
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(174, 171);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(318, 31);
-            this.textBox2.TabIndex = 1;
+            this.namaTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.namaTxt.Location = new System.Drawing.Point(174, 171);
+            this.namaTxt.Name = "namaTxt";
+            this.namaTxt.Size = new System.Drawing.Size(318, 31);
+            this.namaTxt.TabIndex = 1;
             // 
             // label4
             // 
@@ -127,13 +116,13 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Nama";
             // 
-            // textBox4
+            // phoneTxt
             // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(174, 260);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(318, 31);
-            this.textBox4.TabIndex = 1;
+            this.phoneTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phoneTxt.Location = new System.Drawing.Point(174, 260);
+            this.phoneTxt.Name = "phoneTxt";
+            this.phoneTxt.Size = new System.Drawing.Size(318, 31);
+            this.phoneTxt.TabIndex = 1;
             // 
             // label5
             // 
@@ -155,14 +144,14 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "Nomor Telepon";
             // 
-            // textBox5
+            // passwordTxt
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(174, 306);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.PasswordChar = '*';
-            this.textBox5.Size = new System.Drawing.Size(318, 31);
-            this.textBox5.TabIndex = 1;
+            this.passwordTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passwordTxt.Location = new System.Drawing.Point(174, 306);
+            this.passwordTxt.Name = "passwordTxt";
+            this.passwordTxt.PasswordChar = '*';
+            this.passwordTxt.Size = new System.Drawing.Size(318, 31);
+            this.passwordTxt.TabIndex = 1;
             // 
             // label7
             // 
@@ -174,13 +163,13 @@
             this.label7.TabIndex = 4;
             this.label7.Text = "Passoword";
             // 
-            // dateTimePicker1
+            // lahirDate
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(174, 213);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(318, 31);
-            this.dateTimePicker1.TabIndex = 5;
+            this.lahirDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lahirDate.Location = new System.Drawing.Point(174, 213);
+            this.lahirDate.Name = "lahirDate";
+            this.lahirDate.Size = new System.Drawing.Size(318, 31);
+            this.lahirDate.TabIndex = 5;
             // 
             // label8
             // 
@@ -204,24 +193,35 @@
             this.label9.Text = "Login";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Image = global::Contoh_Soal.Properties.Resources.bts_logo2;
+            this.pictureBox1.Location = new System.Drawing.Point(522, 45);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(366, 340);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form2Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(916, 475);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.lahirDate);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.daftarBtn);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.passwordTxt);
+            this.Controls.Add(this.phoneTxt);
+            this.Controls.Add(this.namaTxt);
+            this.Controls.Add(this.usernameTxt);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label2);
@@ -239,19 +239,19 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox usernameTxt;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button daftarBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox namaTxt;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox phoneTxt;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox passwordTxt;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker lahirDate;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
     }

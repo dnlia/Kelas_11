@@ -455,7 +455,7 @@
   <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAbUAAAHECAYAAAC+1LS5AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAA/7JJREFUeF7s/We4Hcd1JQy/v79RYkK84eRwAwCSCrYVbVmWZXs86R2PLIkiRQVK
+        vQAADr0BR/uQrQAA/7JJREFUeF7s/We4Hcd1JQy/v79RYkK84eRwAwCSCrYVbVmWZXs86R2PLIkiRQVK
         sj2Wc7bHUYGkpPG8I0vOtgIzKWaKFMVMAARBkCCJSKSb80W4Oa3vWbtqd1fX6XPuuQkEyN7Ps06f6q7O
         VbV679q16/9BIokkkkgiibxG5P/xVySSSCKJJJLI+SoJqSWSSCKJJPKakYTUEkkkkUQSec1IQmqJJJJI
         Iom8ZiQhtUQSSSSRRF4zkpBaIokkkkgirxlJSC2RRBJJJJHXjCSklkgiiSSSyGtGElJLJJFEEknkNSMJ
@@ -1904,7 +1904,7 @@
   <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAo4AAAKmCAYAAADD8R+7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAa7hJREFUeF7tnQlb09r7dt/v/93+108QAZlEEScUBBQ4Iva97nQ/7c7TTG0zZ63r
+        vQAADr0BR/uQrQAAa7hJREFUeF7tnQlb09r7dt/v/93+108QAZlEEScUBBQ4Iva97nQ/7c7TTG0zZ63r
         3EfSdEyTndU95f/NAAAAAAAq8P/8DQAAAAAAWSCOAAAAAFAJxBEAAAAAKoE4AgAAAEAlEEcAAAAAqATi
         CAAAAACVQBwBAAAAoBKIIwAAAABUAnEEAAAAgEogjgAAAABQCcQRAAAAACqBOAIAAABAJRBHAAAAAKgE
         4ggAAAAAlUAcAQAAAKASiCMAAAAAVAJxBAAAAIBKII4AAAAAUAnEEQAAAAAqgTgCAAAAQCUQRwAAAACo
@@ -9308,6 +9308,30 @@
         CIIgCIIgzg7/AXN08PNTjqeFAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Kode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PersentaseDiskon.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MaksimumDiskon.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BerlakuSampai.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Deskripsi.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="edit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="hapus.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIAAoIAQAFgAAACgAAAAAAQAAAAIAAAEAIAAAAAAAAAAEAHYAAAB2AAAAAAAAAAAA

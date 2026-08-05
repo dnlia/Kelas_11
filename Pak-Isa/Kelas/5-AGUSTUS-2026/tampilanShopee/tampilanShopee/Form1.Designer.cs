@@ -138,7 +138,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::tampilanShopee.Properties.Resources.krnjng;
-            this.pictureBox10.Location = new System.Drawing.Point(1728, 68);
+            this.pictureBox10.Location = new System.Drawing.Point(1740, 69);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(56, 50);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -150,16 +150,16 @@
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.label32);
-            this.panel2.Location = new System.Drawing.Point(267, 68);
+            this.panel2.Location = new System.Drawing.Point(302, 68);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1405, 54);
+            this.panel2.Size = new System.Drawing.Size(1359, 54);
             this.panel2.TabIndex = 1;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Tomato;
             this.panel3.Controls.Add(this.pictureBox9);
-            this.panel3.Location = new System.Drawing.Point(1335, 9);
+            this.panel3.Location = new System.Drawing.Point(1291, 9);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(56, 35);
             this.panel3.TabIndex = 1;
@@ -188,7 +188,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label15.Location = new System.Drawing.Point(1503, 131);
+            this.label15.Location = new System.Drawing.Point(1558, 131);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(105, 20);
             this.label15.TabIndex = 1;
@@ -198,7 +198,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(1311, 131);
+            this.label14.Location = new System.Drawing.Point(1360, 131);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(150, 20);
             this.label14.TabIndex = 1;
@@ -208,7 +208,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.Location = new System.Drawing.Point(1154, 131);
+            this.label13.Location = new System.Drawing.Point(1203, 131);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(109, 20);
             this.label13.TabIndex = 1;
@@ -218,7 +218,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(892, 131);
+            this.label12.Location = new System.Drawing.Point(936, 131);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(214, 20);
             this.label12.TabIndex = 1;
@@ -228,7 +228,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(634, 131);
+            this.label11.Location = new System.Drawing.Point(673, 131);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(220, 20);
             this.label11.TabIndex = 1;
@@ -238,7 +238,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(391, 131);
+            this.label10.Location = new System.Drawing.Point(423, 131);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(209, 20);
             this.label10.TabIndex = 1;
@@ -248,7 +248,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(265, 131);
+            this.label9.Location = new System.Drawing.Point(299, 131);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(87, 20);
             this.label9.TabIndex = 1;
@@ -257,7 +257,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::tampilanShopee.Properties.Resources.logoshp;
-            this.pictureBox3.Location = new System.Drawing.Point(14, 46);
+            this.pictureBox3.Location = new System.Drawing.Point(45, 46);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(238, 93);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -324,7 +324,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(355, 14);
+            this.label4.Location = new System.Drawing.Point(380, 14);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(92, 20);
             this.label4.TabIndex = 1;
@@ -334,7 +334,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(263, 14);
+            this.label3.Location = new System.Drawing.Point(288, 14);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 20);
             this.label3.TabIndex = 1;
@@ -344,7 +344,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(133, 14);
+            this.label2.Location = new System.Drawing.Point(158, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 20);
             this.label2.TabIndex = 1;
@@ -354,7 +354,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(25, 14);
+            this.label1.Location = new System.Drawing.Point(50, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 20);
             this.label1.TabIndex = 1;
@@ -374,7 +374,7 @@
             // 
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = global::tampilanShopee.Properties.Resources.sosmed1;
-            this.pictureBox1.Location = new System.Drawing.Point(445, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(470, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(106, 39);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -406,7 +406,7 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label22.Location = new System.Drawing.Point(165, 662);
+            this.label22.Location = new System.Drawing.Point(197, 670);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(120, 42);
             this.label22.TabIndex = 1;
@@ -418,7 +418,7 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label23.Location = new System.Drawing.Point(303, 662);
+            this.label23.Location = new System.Drawing.Point(335, 670);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(117, 21);
             this.label23.TabIndex = 1;
@@ -430,7 +430,7 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label24.Location = new System.Drawing.Point(443, 662);
+            this.label24.Location = new System.Drawing.Point(475, 670);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(145, 42);
             this.label24.TabIndex = 1;
@@ -442,7 +442,7 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label25.Location = new System.Drawing.Point(598, 662);
+            this.label25.Location = new System.Drawing.Point(630, 670);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(98, 21);
             this.label25.TabIndex = 1;
@@ -454,7 +454,7 @@
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label26.Location = new System.Drawing.Point(721, 662);
+            this.label26.Location = new System.Drawing.Point(753, 670);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(126, 42);
             this.label26.TabIndex = 1;
@@ -466,7 +466,7 @@
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label27.Location = new System.Drawing.Point(866, 662);
+            this.label27.Location = new System.Drawing.Point(898, 670);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(154, 21);
             this.label27.TabIndex = 1;
@@ -478,7 +478,7 @@
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label28.Location = new System.Drawing.Point(1035, 662);
+            this.label28.Location = new System.Drawing.Point(1067, 670);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(156, 42);
             this.label28.TabIndex = 1;
@@ -490,7 +490,7 @@
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label29.Location = new System.Drawing.Point(1201, 662);
+            this.label29.Location = new System.Drawing.Point(1233, 670);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(169, 42);
             this.label29.TabIndex = 1;
@@ -502,7 +502,7 @@
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label30.Location = new System.Drawing.Point(1385, 662);
+            this.label30.Location = new System.Drawing.Point(1417, 670);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(153, 21);
             this.label30.TabIndex = 1;
@@ -514,7 +514,7 @@
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label31.Location = new System.Drawing.Point(1551, 662);
+            this.label31.Location = new System.Drawing.Point(1583, 670);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(133, 21);
             this.label31.TabIndex = 1;
@@ -524,7 +524,7 @@
             // pictureBox23
             // 
             this.pictureBox23.Image = global::tampilanShopee.Properties.Resources.promo;
-            this.pictureBox23.Location = new System.Drawing.Point(1541, 578);
+            this.pictureBox23.Location = new System.Drawing.Point(1573, 586);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(122, 81);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -534,7 +534,7 @@
             // pictureBox22
             // 
             this.pictureBox22.Image = global::tampilanShopee.Properties.Resources.barokah;
-            this.pictureBox22.Location = new System.Drawing.Point(1389, 578);
+            this.pictureBox22.Location = new System.Drawing.Point(1421, 586);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(127, 81);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -544,7 +544,7 @@
             // pictureBox21
             // 
             this.pictureBox21.Image = global::tampilanShopee.Properties.Resources.voucher;
-            this.pictureBox21.Location = new System.Drawing.Point(1207, 581);
+            this.pictureBox21.Location = new System.Drawing.Point(1239, 589);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(124, 78);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -554,7 +554,7 @@
             // pictureBox20
             // 
             this.pictureBox20.Image = global::tampilanShopee.Properties.Resources.fit;
-            this.pictureBox20.Location = new System.Drawing.Point(1045, 578);
+            this.pictureBox20.Location = new System.Drawing.Point(1077, 586);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(122, 81);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -564,7 +564,7 @@
             // pictureBox19
             // 
             this.pictureBox19.Image = global::tampilanShopee.Properties.Resources.kelola;
-            this.pictureBox19.Location = new System.Drawing.Point(868, 578);
+            this.pictureBox19.Location = new System.Drawing.Point(900, 586);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(121, 87);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -574,7 +574,7 @@
             // pictureBox18
             // 
             this.pictureBox18.Image = global::tampilanShopee.Properties.Resources.sale;
-            this.pictureBox18.Location = new System.Drawing.Point(571, 574);
+            this.pictureBox18.Location = new System.Drawing.Point(603, 582);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(123, 94);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -584,7 +584,7 @@
             // pictureBox17
             // 
             this.pictureBox17.Image = global::tampilanShopee.Properties.Resources.market;
-            this.pictureBox17.Location = new System.Drawing.Point(717, 586);
+            this.pictureBox17.Location = new System.Drawing.Point(749, 594);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(110, 73);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -594,7 +594,7 @@
             // pictureBox16
             // 
             this.pictureBox16.Image = global::tampilanShopee.Properties.Resources.hp;
-            this.pictureBox16.Location = new System.Drawing.Point(449, 586);
+            this.pictureBox16.Location = new System.Drawing.Point(481, 594);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(108, 73);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -604,7 +604,7 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = global::tampilanShopee.Properties.Resources.tas;
-            this.pictureBox15.Location = new System.Drawing.Point(297, 583);
+            this.pictureBox15.Location = new System.Drawing.Point(329, 591);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(112, 76);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -614,7 +614,7 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::tampilanShopee.Properties.Resources.loe2;
-            this.pictureBox14.Location = new System.Drawing.Point(157, 586);
+            this.pictureBox14.Location = new System.Drawing.Point(189, 594);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(111, 73);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

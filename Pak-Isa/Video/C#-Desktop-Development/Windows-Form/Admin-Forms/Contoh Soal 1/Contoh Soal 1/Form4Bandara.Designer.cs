@@ -47,21 +47,30 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridBandara = new System.Windows.Forms.DataGridView();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.namaTxt = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.iataTxt = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cityTxt = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.negaraTxt = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.addressTxt = new System.Windows.Forms.TextBox();
+            this.terminalCount = new System.Windows.Forms.NumericUpDown();
+            this.saveBtn = new System.Windows.Forms.Button();
+            this.clearBtn = new System.Windows.Forms.Button();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nama = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KodeIATA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Kota = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Negara = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.JumlahTerminal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Alamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hapus = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -71,8 +80,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridBandara)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.terminalCount)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -126,7 +135,7 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(-6, 73);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(304, 650);
+            this.panel2.Size = new System.Drawing.Size(304, 667);
             this.panel2.TabIndex = 0;
             // 
             // pictureBox7
@@ -287,94 +296,105 @@
             this.label9.TabIndex = 1;
             this.label9.Text = "Semua bandara yang terdaftar akan muncul disini";
             // 
-            // dataGridView1
+            // dataGridBandara
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(330, 162);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(915, 258);
-            this.dataGridView1.TabIndex = 2;
+            this.dataGridBandara.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridBandara.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.Nama,
+            this.KodeIATA,
+            this.Kota,
+            this.Negara,
+            this.JumlahTerminal,
+            this.Alamat,
+            this.hapus,
+            this.edit});
+            this.dataGridBandara.Location = new System.Drawing.Point(330, 162);
+            this.dataGridBandara.Name = "dataGridBandara";
+            this.dataGridBandara.RowHeadersWidth = 62;
+            this.dataGridBandara.RowTemplate.Height = 28;
+            this.dataGridBandara.Size = new System.Drawing.Size(915, 279);
+            this.dataGridBandara.TabIndex = 2;
+            this.dataGridBandara.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridBandara_CellClick);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(326, 443);
+            this.label10.Location = new System.Drawing.Point(326, 467);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(59, 25);
             this.label10.TabIndex = 1;
             this.label10.Text = "Nama";
             // 
-            // textBox1
+            // namaTxt
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(447, 443);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(282, 31);
-            this.textBox1.TabIndex = 3;
+            this.namaTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.namaTxt.Location = new System.Drawing.Point(447, 467);
+            this.namaTxt.Name = "namaTxt";
+            this.namaTxt.Size = new System.Drawing.Size(282, 31);
+            this.namaTxt.TabIndex = 3;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(326, 489);
+            this.label11.Location = new System.Drawing.Point(326, 513);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(94, 25);
             this.label11.TabIndex = 1;
             this.label11.Text = "Kode IATA";
             // 
-            // textBox2
+            // iataTxt
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(447, 487);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(282, 31);
-            this.textBox2.TabIndex = 3;
+            this.iataTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iataTxt.Location = new System.Drawing.Point(447, 511);
+            this.iataTxt.Name = "iataTxt";
+            this.iataTxt.Size = new System.Drawing.Size(282, 31);
+            this.iataTxt.TabIndex = 3;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(326, 535);
+            this.label12.Location = new System.Drawing.Point(326, 559);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(48, 25);
             this.label12.TabIndex = 1;
             this.label12.Text = "Kota";
             // 
-            // textBox3
+            // cityTxt
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(447, 533);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(282, 31);
-            this.textBox3.TabIndex = 3;
+            this.cityTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityTxt.Location = new System.Drawing.Point(447, 557);
+            this.cityTxt.Name = "cityTxt";
+            this.cityTxt.Size = new System.Drawing.Size(282, 31);
+            this.cityTxt.TabIndex = 3;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(326, 583);
+            this.label13.Location = new System.Drawing.Point(326, 607);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(69, 25);
             this.label13.TabIndex = 1;
             this.label13.Text = "Negara";
             // 
-            // comboBox1
+            // negaraTxt
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(447, 581);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(282, 36);
-            this.comboBox1.TabIndex = 2;
+            this.negaraTxt.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.negaraTxt.FormattingEnabled = true;
+            this.negaraTxt.Location = new System.Drawing.Point(447, 605);
+            this.negaraTxt.Name = "negaraTxt";
+            this.negaraTxt.Size = new System.Drawing.Size(282, 36);
+            this.negaraTxt.TabIndex = 2;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(757, 438);
+            this.label14.Location = new System.Drawing.Point(757, 462);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(137, 25);
             this.label14.TabIndex = 1;
@@ -384,69 +404,147 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(757, 490);
+            this.label15.Location = new System.Drawing.Point(757, 514);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(68, 25);
             this.label15.TabIndex = 1;
             this.label15.Text = "Alamat";
             // 
-            // textBox5
+            // addressTxt
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(909, 490);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(295, 119);
-            this.textBox5.TabIndex = 3;
+            this.addressTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addressTxt.Location = new System.Drawing.Point(909, 514);
+            this.addressTxt.Multiline = true;
+            this.addressTxt.Name = "addressTxt";
+            this.addressTxt.Size = new System.Drawing.Size(295, 119);
+            this.addressTxt.TabIndex = 3;
             // 
-            // numericUpDown1
+            // terminalCount
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(909, 443);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(295, 34);
-            this.numericUpDown1.TabIndex = 4;
+            this.terminalCount.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.terminalCount.Location = new System.Drawing.Point(909, 467);
+            this.terminalCount.Name = "terminalCount";
+            this.terminalCount.Size = new System.Drawing.Size(295, 34);
+            this.terminalCount.TabIndex = 4;
             // 
-            // button1
+            // saveBtn
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Location = new System.Drawing.Point(1086, 640);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 39);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Simpan";
-            this.button1.UseVisualStyleBackColor = false;
+            this.saveBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.saveBtn.Location = new System.Drawing.Point(1086, 664);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(118, 39);
+            this.saveBtn.TabIndex = 5;
+            this.saveBtn.Text = "Simpan";
+            this.saveBtn.UseVisualStyleBackColor = false;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
-            // button2
+            // clearBtn
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button2.Location = new System.Drawing.Point(949, 640);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 39);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Batal";
-            this.button2.UseVisualStyleBackColor = false;
+            this.clearBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.clearBtn.Location = new System.Drawing.Point(949, 664);
+            this.clearBtn.Name = "clearBtn";
+            this.clearBtn.Size = new System.Drawing.Size(118, 39);
+            this.clearBtn.TabIndex = 5;
+            this.clearBtn.Text = "Batal";
+            this.clearBtn.UseVisualStyleBackColor = false;
+            // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 8;
+            this.ID.Name = "ID";
+            this.ID.Visible = false;
+            this.ID.Width = 150;
+            // 
+            // Nama
+            // 
+            this.Nama.DataPropertyName = "Nama";
+            this.Nama.HeaderText = "Nama";
+            this.Nama.MinimumWidth = 8;
+            this.Nama.Name = "Nama";
+            this.Nama.Width = 150;
+            // 
+            // KodeIATA
+            // 
+            this.KodeIATA.DataPropertyName = "KodeIATA";
+            this.KodeIATA.HeaderText = "KodeIATA";
+            this.KodeIATA.MinimumWidth = 8;
+            this.KodeIATA.Name = "KodeIATA";
+            this.KodeIATA.Width = 150;
+            // 
+            // Kota
+            // 
+            this.Kota.DataPropertyName = "Kota";
+            this.Kota.HeaderText = "Kota";
+            this.Kota.MinimumWidth = 8;
+            this.Kota.Name = "Kota";
+            this.Kota.Width = 150;
+            // 
+            // Negara
+            // 
+            this.Negara.DataPropertyName = "Negara";
+            this.Negara.HeaderText = "Negara";
+            this.Negara.MinimumWidth = 8;
+            this.Negara.Name = "Negara";
+            this.Negara.Width = 150;
+            // 
+            // JumlahTerminal
+            // 
+            this.JumlahTerminal.DataPropertyName = "JumlahTerminal";
+            this.JumlahTerminal.HeaderText = "JumlahTerminal";
+            this.JumlahTerminal.MinimumWidth = 8;
+            this.JumlahTerminal.Name = "JumlahTerminal";
+            this.JumlahTerminal.Width = 150;
+            // 
+            // Alamat
+            // 
+            this.Alamat.DataPropertyName = "Alamat";
+            this.Alamat.HeaderText = "Alamat";
+            this.Alamat.MinimumWidth = 8;
+            this.Alamat.Name = "Alamat";
+            this.Alamat.Width = 150;
+            // 
+            // hapus
+            // 
+            this.hapus.DataPropertyName = "hapus";
+            this.hapus.HeaderText = "";
+            this.hapus.MinimumWidth = 8;
+            this.hapus.Name = "hapus";
+            this.hapus.Text = "Hapus";
+            this.hapus.UseColumnTextForButtonValue = true;
+            this.hapus.Width = 150;
+            // 
+            // edit
+            // 
+            this.edit.DataPropertyName = "edit";
+            this.edit.HeaderText = "";
+            this.edit.MinimumWidth = 8;
+            this.edit.Name = "edit";
+            this.edit.Text = "Edit";
+            this.edit.UseColumnTextForButtonValue = true;
+            this.edit.Width = 150;
             // 
             // Form4Bandara
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1266, 719);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox3);
+            this.ClientSize = new System.Drawing.Size(1266, 735);
+            this.Controls.Add(this.clearBtn);
+            this.Controls.Add(this.saveBtn);
+            this.Controls.Add(this.terminalCount);
+            this.Controls.Add(this.negaraTxt);
+            this.Controls.Add(this.cityTxt);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.iataTxt);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.addressTxt);
+            this.Controls.Add(this.namaTxt);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridBandara);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -456,6 +554,7 @@
             this.Name = "Form4Bandara";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bromo Airlines - Admin";
+            this.Load += new System.EventHandler(this.Form4Bandara_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -467,8 +566,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridBandara)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.terminalCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -494,20 +593,29 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridBandara;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox namaTxt;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox iataTxt;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox cityTxt;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox negaraTxt;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox addressTxt;
+        private System.Windows.Forms.NumericUpDown terminalCount;
+        private System.Windows.Forms.Button saveBtn;
+        private System.Windows.Forms.Button clearBtn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nama;
+        private System.Windows.Forms.DataGridViewTextBoxColumn KodeIATA;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Kota;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Negara;
+        private System.Windows.Forms.DataGridViewTextBoxColumn JumlahTerminal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Alamat;
+        private System.Windows.Forms.DataGridViewButtonColumn hapus;
+        private System.Windows.Forms.DataGridViewButtonColumn edit;
     }
 }

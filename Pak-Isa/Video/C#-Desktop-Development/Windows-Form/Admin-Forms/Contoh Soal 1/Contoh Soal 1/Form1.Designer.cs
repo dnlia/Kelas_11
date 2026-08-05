@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1Login));
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.usernameTxt = new System.Windows.Forms.TextBox();
+            this.loginBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.passwordTxt = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -50,25 +50,25 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Username";
             // 
-            // textBox1
+            // usernameTxt
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(287, 321);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(374, 34);
-            this.textBox1.TabIndex = 1;
+            this.usernameTxt.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernameTxt.Location = new System.Drawing.Point(287, 321);
+            this.usernameTxt.Name = "usernameTxt";
+            this.usernameTxt.Size = new System.Drawing.Size(374, 34);
+            this.usernameTxt.TabIndex = 0;
             // 
-            // button1
+            // loginBtn
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(542, 408);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 37);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.loginBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.loginBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginBtn.Location = new System.Drawing.Point(542, 408);
+            this.loginBtn.Name = "loginBtn";
+            this.loginBtn.Size = new System.Drawing.Size(119, 42);
+            this.loginBtn.TabIndex = 2;
+            this.loginBtn.Text = "Login";
+            this.loginBtn.UseVisualStyleBackColor = false;
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // label2
             // 
@@ -80,13 +80,14 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Password";
             // 
-            // textBox2
+            // passwordTxt
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(287, 361);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(374, 34);
-            this.textBox2.TabIndex = 1;
+            this.passwordTxt.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passwordTxt.Location = new System.Drawing.Point(287, 361);
+            this.passwordTxt.Name = "passwordTxt";
+            this.passwordTxt.PasswordChar = '*';
+            this.passwordTxt.Size = new System.Drawing.Size(374, 34);
+            this.passwordTxt.TabIndex = 1;
             // 
             // label3
             // 
@@ -113,7 +114,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::Contoh_Soal.Properties.Resources.BTS_logo;
             this.pictureBox1.Location = new System.Drawing.Point(124, 24);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(601, 291);
@@ -130,10 +131,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.loginBtn);
+            this.Controls.Add(this.passwordTxt);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.usernameTxt);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1Login";
@@ -148,10 +149,10 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox usernameTxt;
+        private System.Windows.Forms.Button loginBtn;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox passwordTxt;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;

@@ -30,6 +30,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5Maskapai));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,16 +51,23 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridMaskapai = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nama = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Perusahaan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.JumlahKru = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Deskripsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hapus = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.namaTxt = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.perusahaanTxt = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.deskripsiTxt = new System.Windows.Forms.TextBox();
+            this.kruCount = new System.Windows.Forms.NumericUpDown();
+            this.saveBtn = new System.Windows.Forms.Button();
+            this.batalBtn = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -68,8 +78,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridMaskapai)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kruCount)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -285,15 +295,107 @@
             this.label9.TabIndex = 1;
             this.label9.Text = "Semua maskapai yang terdaftar akan muncul disini";
             // 
-            // dataGridView1
+            // dataGridMaskapai
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(330, 162);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(915, 258);
-            this.dataGridView1.TabIndex = 2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridMaskapai.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridMaskapai.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridMaskapai.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.Nama,
+            this.Perusahaan,
+            this.JumlahKru,
+            this.Deskripsi,
+            this.hapus,
+            this.edit});
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridMaskapai.DefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridMaskapai.Location = new System.Drawing.Point(330, 162);
+            this.dataGridMaskapai.Name = "dataGridMaskapai";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridMaskapai.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridMaskapai.RowHeadersWidth = 62;
+            this.dataGridMaskapai.RowTemplate.Height = 28;
+            this.dataGridMaskapai.Size = new System.Drawing.Size(915, 258);
+            this.dataGridMaskapai.TabIndex = 2;
+            this.dataGridMaskapai.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridMaskapai_CellClick);
+            // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 8;
+            this.ID.Name = "ID";
+            this.ID.Visible = false;
+            this.ID.Width = 150;
+            // 
+            // Nama
+            // 
+            this.Nama.DataPropertyName = "Nama";
+            this.Nama.HeaderText = "Nama";
+            this.Nama.MinimumWidth = 8;
+            this.Nama.Name = "Nama";
+            this.Nama.Width = 150;
+            // 
+            // Perusahaan
+            // 
+            this.Perusahaan.DataPropertyName = "Perusahaan";
+            this.Perusahaan.HeaderText = "Perusahaan";
+            this.Perusahaan.MinimumWidth = 8;
+            this.Perusahaan.Name = "Perusahaan";
+            this.Perusahaan.Width = 150;
+            // 
+            // JumlahKru
+            // 
+            this.JumlahKru.DataPropertyName = "JumlahKru";
+            this.JumlahKru.HeaderText = "JumlahKru";
+            this.JumlahKru.MinimumWidth = 8;
+            this.JumlahKru.Name = "JumlahKru";
+            this.JumlahKru.Width = 150;
+            // 
+            // Deskripsi
+            // 
+            this.Deskripsi.DataPropertyName = "Deskripsi";
+            this.Deskripsi.HeaderText = "Deskripsi";
+            this.Deskripsi.MinimumWidth = 8;
+            this.Deskripsi.Name = "Deskripsi";
+            this.Deskripsi.Width = 150;
+            // 
+            // hapus
+            // 
+            this.hapus.HeaderText = "";
+            this.hapus.MinimumWidth = 8;
+            this.hapus.Name = "hapus";
+            this.hapus.Text = "Hapus";
+            this.hapus.UseColumnTextForButtonValue = true;
+            this.hapus.Width = 150;
+            // 
+            // edit
+            // 
+            this.edit.HeaderText = "";
+            this.edit.MinimumWidth = 8;
+            this.edit.Name = "edit";
+            this.edit.Text = "Edit";
+            this.edit.UseColumnTextForButtonValue = true;
+            this.edit.Width = 150;
             // 
             // label10
             // 
@@ -305,13 +407,13 @@
             this.label10.TabIndex = 1;
             this.label10.Text = "Nama";
             // 
-            // textBox1
+            // namaTxt
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(447, 443);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(282, 31);
-            this.textBox1.TabIndex = 3;
+            this.namaTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.namaTxt.Location = new System.Drawing.Point(447, 443);
+            this.namaTxt.Name = "namaTxt";
+            this.namaTxt.Size = new System.Drawing.Size(282, 31);
+            this.namaTxt.TabIndex = 3;
             // 
             // label11
             // 
@@ -323,60 +425,62 @@
             this.label11.TabIndex = 1;
             this.label11.Text = "Perusahaan";
             // 
-            // textBox2
+            // perusahaanTxt
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(447, 487);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(282, 31);
-            this.textBox2.TabIndex = 3;
+            this.perusahaanTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.perusahaanTxt.Location = new System.Drawing.Point(447, 487);
+            this.perusahaanTxt.Name = "perusahaanTxt";
+            this.perusahaanTxt.Size = new System.Drawing.Size(282, 31);
+            this.perusahaanTxt.TabIndex = 3;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(757, 440);
+            this.label15.Location = new System.Drawing.Point(759, 440);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(68, 25);
+            this.label15.Size = new System.Drawing.Size(84, 25);
             this.label15.TabIndex = 1;
-            this.label15.Text = "Alamat";
+            this.label15.Text = "Deskripsi";
             // 
-            // textBox5
+            // deskripsiTxt
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(844, 443);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(360, 154);
-            this.textBox5.TabIndex = 3;
+            this.deskripsiTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deskripsiTxt.Location = new System.Drawing.Point(850, 443);
+            this.deskripsiTxt.Multiline = true;
+            this.deskripsiTxt.Name = "deskripsiTxt";
+            this.deskripsiTxt.Size = new System.Drawing.Size(360, 154);
+            this.deskripsiTxt.TabIndex = 3;
             // 
-            // numericUpDown1
+            // kruCount
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(447, 539);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(282, 34);
-            this.numericUpDown1.TabIndex = 4;
+            this.kruCount.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kruCount.Location = new System.Drawing.Point(447, 539);
+            this.kruCount.Name = "kruCount";
+            this.kruCount.Size = new System.Drawing.Size(282, 34);
+            this.kruCount.TabIndex = 4;
             // 
-            // button1
+            // saveBtn
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Location = new System.Drawing.Point(1086, 640);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 39);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Simpan";
-            this.button1.UseVisualStyleBackColor = false;
+            this.saveBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.saveBtn.Location = new System.Drawing.Point(1094, 640);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(118, 39);
+            this.saveBtn.TabIndex = 5;
+            this.saveBtn.Text = "Simpan";
+            this.saveBtn.UseVisualStyleBackColor = false;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
-            // button2
+            // batalBtn
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button2.Location = new System.Drawing.Point(949, 640);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 39);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Batal";
-            this.button2.UseVisualStyleBackColor = false;
+            this.batalBtn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.batalBtn.Location = new System.Drawing.Point(957, 640);
+            this.batalBtn.Name = "batalBtn";
+            this.batalBtn.Size = new System.Drawing.Size(118, 39);
+            this.batalBtn.TabIndex = 5;
+            this.batalBtn.Text = "Batal";
+            this.batalBtn.UseVisualStyleBackColor = false;
+            this.batalBtn.Click += new System.EventHandler(this.batalBtn_Click);
             // 
             // label14
             // 
@@ -394,16 +498,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1266, 719);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.batalBtn);
+            this.Controls.Add(this.saveBtn);
+            this.Controls.Add(this.kruCount);
+            this.Controls.Add(this.perusahaanTxt);
+            this.Controls.Add(this.deskripsiTxt);
+            this.Controls.Add(this.namaTxt);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridMaskapai);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -413,6 +517,7 @@
             this.Name = "Form5Maskapai";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bromo Airlines - Admin";
+            this.Load += new System.EventHandler(this.Form5Maskapai_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -424,8 +529,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridMaskapai)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kruCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -451,16 +556,23 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridMaskapai;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox namaTxt;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox perusahaanTxt;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox deskripsiTxt;
+        private System.Windows.Forms.NumericUpDown kruCount;
+        private System.Windows.Forms.Button saveBtn;
+        private System.Windows.Forms.Button batalBtn;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nama;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Perusahaan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn JumlahKru;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Deskripsi;
+        private System.Windows.Forms.DataGridViewButtonColumn hapus;
+        private System.Windows.Forms.DataGridViewButtonColumn edit;
     }
 }

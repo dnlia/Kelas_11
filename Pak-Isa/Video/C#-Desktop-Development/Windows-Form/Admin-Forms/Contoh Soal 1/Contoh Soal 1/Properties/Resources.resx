@@ -118,4 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="smenda2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smenda2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tgl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tgl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logotls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logotls1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tgl2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tgl21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pswtats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pswtats.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orng.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bts-logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bts-logo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lngkrn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lngkrn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pswt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pswt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tket2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tket21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lokasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lokasi1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pswtbeh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pswtbeh.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BTS-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BTS-logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logotag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logotag1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gunung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gunung.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orng2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orng21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pnh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pnh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klarpth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\klarpth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pnh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pnh2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tgl3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tgl31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

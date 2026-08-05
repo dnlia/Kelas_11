@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Contoh_Soal_1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Contoh_Soal_1
+namespace Contoh_Soal
 {
     internal static class Program
     {
