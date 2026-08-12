@@ -76,12 +76,13 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Daftar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(522, 98);
+            this.pictureBox1.Location = new System.Drawing.Point(522, 45);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(366, 340);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -115,7 +116,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(318, 31);
             this.textBox2.TabIndex = 1;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label4
             // 
@@ -154,7 +154,6 @@
             this.label6.Size = new System.Drawing.Size(135, 25);
             this.label6.TabIndex = 4;
             this.label6.Text = "Nomor Telepon";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox5
             // 
@@ -174,7 +173,6 @@
             this.label7.Size = new System.Drawing.Size(98, 25);
             this.label7.TabIndex = 4;
             this.label7.Text = "Passoword";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // dateTimePicker1
             // 
@@ -228,9 +226,10 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2Register";
-            this.Text = "Register Form";
-            this.Load += new System.EventHandler(this.Form2Register_Load);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Bromo Airlines - Daftar Akun";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

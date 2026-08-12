@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F69E8195-6671-4C2D-A269-0CC0DD2446AB}|Contoh Soal 1\\Contoh Soal 1.csproj|C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\contoh soal 1\\form3dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F69E8195-6671-4C2D-A269-0CC0DD2446AB}|Contoh Soal 1\\Contoh Soal 1.csproj|solutionrelative:contoh soal 1\\form3dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F69E8195-6671-4C2D-A269-0CC0DD2446AB}|Contoh Soal 1\\Contoh Soal 1.csproj|C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\contoh soal 1\\form4bandara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F69E8195-6671-4C2D-A269-0CC0DD2446AB}|Contoh Soal 1\\Contoh Soal 1.csproj|solutionrelative:contoh soal 1\\form4bandara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69E8195-6671-4C2D-A269-0CC0DD2446AB}|Contoh Soal 1\\Contoh Soal 1.csproj|c:\\kelas_11\\pak-isa\\video\\c#-desktop-development\\windows-form\\admin-forms\\contoh soal 1\\contoh soal 1\\form3dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F69E8195-6671-4C2D-A269-0CC0DD2446AB}|Contoh Soal 1\\Contoh Soal 1.csproj|solutionrelative:contoh soal 1\\form3dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F69E8195-6671-4C2D-A269-0CC0DD2446AB}|Contoh Soal 1\\Contoh Soal 1.csproj|c:\\kelas_11\\pak-isa\\video\\c#-desktop-development\\windows-form\\admin-forms\\contoh soal 1\\contoh soal 1\\form4bandara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F69E8195-6671-4C2D-A269-0CC0DD2446AB}|Contoh Soal 1\\Contoh Soal 1.csproj|solutionrelative:contoh soal 1\\form4bandara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F69E8195-6671-4C2D-A269-0CC0DD2446AB}|Contoh Soal 1\\Contoh Soal 1.csproj|c:\\kelas_11\\pak-isa\\video\\c#-desktop-development\\windows-form\\admin-forms\\contoh soal 1\\contoh soal 1\\form4bandara.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F69E8195-6671-4C2D-A269-0CC0DD2446AB}|Contoh Soal 1\\Contoh Soal 1.csproj|solutionrelative:contoh soal 1\\form4bandara.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +30,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form3Dashboard.cs",
-              "DocumentMoniker": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\Contoh Soal 1\\Form3Dashboard.cs",
-              "RelativeDocumentMoniker": "Contoh Soal 1\\Form3Dashboard.cs",
-              "ToolTip": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\Contoh Soal 1\\Form3Dashboard.cs",
-              "RelativeToolTip": "Contoh Soal 1\\Form3Dashboard.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form4Bandara.Designer.cs",
+              "DocumentMoniker": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\Contoh Soal 1\\Form4Bandara.Designer.cs",
+              "RelativeDocumentMoniker": "Contoh Soal 1\\Form4Bandara.Designer.cs",
+              "ToolTip": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\Contoh Soal 1\\Form4Bandara.Designer.cs",
+              "RelativeToolTip": "Contoh Soal 1\\Form4Bandara.Designer.cs",
+              "ViewState": "AgIAABgBAAAAAAAAAAAlwCkBAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T01:11:54.797Z",
+              "WhenOpened": "2026-08-11T11:37:46.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form4Bandara.cs",
+              "DocumentMoniker": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\Contoh Soal 1\\Form4Bandara.cs",
+              "RelativeDocumentMoniker": "Contoh Soal 1\\Form4Bandara.cs",
+              "ToolTip": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\Contoh Soal 1\\Form4Bandara.cs",
+              "RelativeToolTip": "Contoh Soal 1\\Form4Bandara.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAIA1wHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T11:13:56.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form3Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\Contoh Soal 1\\Form3Dashboard.cs",
-              "RelativeDocumentMoniker": "Contoh Soal 1\\Form3Dashboard.cs",
-              "ToolTip": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\Contoh Soal 1\\Form3Dashboard.cs [Design]",
-              "RelativeToolTip": "Contoh Soal 1\\Form3Dashboard.cs [Design]",
+              "Title": "Form4Bandara.cs [Design]",
+              "DocumentMoniker": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\Contoh Soal 1\\Form4Bandara.cs",
+              "RelativeDocumentMoniker": "Contoh Soal 1\\Form4Bandara.cs",
+              "ToolTip": "C:\\Kelas_11\\Pak-Isa\\Video\\C#-Desktop-Development\\Windows-Form\\Admin-Forms\\Contoh Soal 1\\Contoh Soal 1\\Form4Bandara.cs [Design]",
+              "RelativeToolTip": "Contoh Soal 1\\Form4Bandara.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T16:06:08.604Z",
+              "WhenOpened": "2026-08-11T11:13:52.913Z",
               "EditorCaption": " [Design]"
             }
           ]

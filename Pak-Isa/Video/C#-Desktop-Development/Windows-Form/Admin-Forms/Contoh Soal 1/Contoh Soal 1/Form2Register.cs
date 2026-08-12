@@ -17,29 +17,16 @@ namespace Contoh_Soal_1
             InitializeComponent();
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form2Register_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void label9_Click(object sender, EventArgs e)
         {
-
+            Form1Login login = new Form1Login();
+            this.Close();
+            login.Show();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Berhasil Daftar, Silakan Login");
         }
     }
 }

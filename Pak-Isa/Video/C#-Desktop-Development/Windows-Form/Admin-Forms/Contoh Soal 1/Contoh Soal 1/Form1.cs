@@ -17,20 +17,18 @@ namespace Contoh_Soal_1
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Form3Dashboard dashboard = new Form3Dashboard();
+            this.Hide();
+            dashboard.Show();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
-
+            Form2Register register = new Form2Register();
+            this.Hide();
+            register.Show();
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

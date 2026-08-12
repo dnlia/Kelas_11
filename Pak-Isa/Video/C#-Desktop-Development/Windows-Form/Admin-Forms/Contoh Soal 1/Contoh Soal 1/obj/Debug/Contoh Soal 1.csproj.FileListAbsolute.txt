@@ -1,4 +1,17 @@
 C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal 1.csproj.AssemblyReference.cache
 C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form1Login.resources
 C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form2Register.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form3Dashboard.resources
 C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal 1.csproj.GenerateResource.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\Contoh Soal 1.exe.config
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\Contoh Soal 1.exe
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\Contoh Soal 1.pdb
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Properties.Resources.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal 1.csproj.CoreCompileInputs.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal 1.exe
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal 1.pdb
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form4Bandara.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form6JadwalPenerbangan.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form5Maskapai.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form7KodePromo.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form8UbahStatusPenerbangan.resources

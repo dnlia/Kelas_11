@@ -64,6 +64,36 @@
     <Compile Include="Form3Dashboard.Designer.cs">
       <DependentUpon>Form3Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4Bandara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4Bandara.Designer.cs">
+      <DependentUpon>Form4Bandara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6JadwalPenerbangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6JadwalPenerbangan.Designer.cs">
+      <DependentUpon>Form6JadwalPenerbangan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5Maskapai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5Maskapai.Designer.cs">
+      <DependentUpon>Form5Maskapai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7KodePromo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7KodePromo.Designer.cs">
+      <DependentUpon>Form7KodePromo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8UbahStatusPenerbangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8UbahStatusPenerbangan.Designer.cs">
+      <DependentUpon>Form8UbahStatusPenerbangan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -75,14 +105,35 @@
     <EmbeddedResource Include="Form3Dashboard.resx">
       <DependentUpon>Form3Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form4Bandara.resx">
+      <DependentUpon>Form4Bandara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6JadwalPenerbangan.resx">
+      <DependentUpon>Form6JadwalPenerbangan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5Maskapai.resx">
+      <DependentUpon>Form5Maskapai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7KodePromo.resx">
+      <DependentUpon>Form7KodePromo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8UbahStatusPenerbangan.resx">
+      <DependentUpon>Form8UbahStatusPenerbangan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -93,7 +144,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logo.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
