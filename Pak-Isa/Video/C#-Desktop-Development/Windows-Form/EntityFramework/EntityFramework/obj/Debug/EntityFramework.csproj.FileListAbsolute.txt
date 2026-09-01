@@ -1,0 +1,15 @@
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.AssemblyReference.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\obj\Debug\EntityFramework.Form1.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\obj\Debug\EntityFramework.Properties.Resources.resources
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.GenerateResource.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.CoreCompileInputs.cache
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe.config
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\bin\Debug\EntityFramework.pdb
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\bin\Debug\EntityFramework.dll
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\bin\Debug\EntityFramework.xml
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\obj\Debug\EntityFr.4B064B60.Up2Date
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\obj\Debug\EntityFramework.exe
+C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\EntityFramework\EntityFramework\obj\Debug\EntityFramework.pdb
