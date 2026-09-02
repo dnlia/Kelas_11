@@ -1,0 +1,14 @@
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\obj\Debug\net10.0\ModulAjar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\obj\Debug\net10.0\ModulAjar.AssemblyInfoInputs.cache
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\obj\Debug\net10.0\ModulAjar.AssemblyInfo.cs
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\obj\Debug\net10.0\ModulAjar.csproj.CoreCompileInputs.cache
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\bin\Debug\net10.0\ModulAjar.exe
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\bin\Debug\net10.0\ModulAjar.deps.json
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\bin\Debug\net10.0\ModulAjar.runtimeconfig.json
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\bin\Debug\net10.0\ModulAjar.dll
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\bin\Debug\net10.0\ModulAjar.pdb
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\obj\Debug\net10.0\ModulAjar.dll
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\obj\Debug\net10.0\refint\ModulAjar.dll
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\obj\Debug\net10.0\ModulAjar.pdb
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\obj\Debug\net10.0\ModulAjar.genruntimeconfig.cache
+C:\Kelas_11\Pak-Isa\Kelas\2-SEPTEMBER-2026\ModulAjar\ModulAjar\obj\Debug\net10.0\ref\ModulAjar.dll

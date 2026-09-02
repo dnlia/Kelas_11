@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Kelas_11\\Pak-Isa\\Kelas\\2-SEPTEMBER-2026\\ModulAjar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD05FA3-2371-6BE5-DCEA-89406D41C8E5}|ModulAjar\\ModulAjar.csproj|c:\\kelas_11\\pak-isa\\kelas\\2-september-2026\\modulajar\\modulajar\\bab14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD05FA3-2371-6BE5-DCEA-89406D41C8E5}|ModulAjar\\ModulAjar.csproj|solutionrelative:modulajar\\bab14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD05FA3-2371-6BE5-DCEA-89406D41C8E5}|ModulAjar\\ModulAjar.csproj|c:\\kelas_11\\pak-isa\\kelas\\2-september-2026\\modulajar\\modulajar\\bab13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD05FA3-2371-6BE5-DCEA-89406D41C8E5}|ModulAjar\\ModulAjar.csproj|solutionrelative:modulajar\\bab13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD05FA3-2371-6BE5-DCEA-89406D41C8E5}|ModulAjar\\ModulAjar.csproj|c:\\kelas_11\\pak-isa\\kelas\\2-september-2026\\modulajar\\modulajar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD05FA3-2371-6BE5-DCEA-89406D41C8E5}|ModulAjar\\ModulAjar.csproj|solutionrelative:modulajar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bab14.cs",
+              "DocumentMoniker": "C:\\Kelas_11\\Pak-Isa\\Kelas\\2-SEPTEMBER-2026\\ModulAjar\\ModulAjar\\Bab14.cs",
+              "RelativeDocumentMoniker": "ModulAjar\\Bab14.cs",
+              "ToolTip": "C:\\Kelas_11\\Pak-Isa\\Kelas\\2-SEPTEMBER-2026\\ModulAjar\\ModulAjar\\Bab14.cs",
+              "RelativeToolTip": "ModulAjar\\Bab14.cs",
+              "ViewState": "AgIAADEBAAAAAAAAAAAgwDwBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T06:18:50.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bab13.cs",
+              "DocumentMoniker": "C:\\Kelas_11\\Pak-Isa\\Kelas\\2-SEPTEMBER-2026\\ModulAjar\\ModulAjar\\Bab13.cs",
+              "RelativeDocumentMoniker": "ModulAjar\\Bab13.cs",
+              "ToolTip": "C:\\Kelas_11\\Pak-Isa\\Kelas\\2-SEPTEMBER-2026\\ModulAjar\\ModulAjar\\Bab13.cs",
+              "RelativeToolTip": "ModulAjar\\Bab13.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAmwOYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T06:01:54.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Kelas_11\\Pak-Isa\\Kelas\\2-SEPTEMBER-2026\\ModulAjar\\ModulAjar\\Program.cs",
+              "RelativeDocumentMoniker": "ModulAjar\\Program.cs",
+              "ToolTip": "C:\\Kelas_11\\Pak-Isa\\Kelas\\2-SEPTEMBER-2026\\ModulAjar\\ModulAjar\\Program.cs",
+              "RelativeToolTip": "ModulAjar\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswFEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T01:18:02.401Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
