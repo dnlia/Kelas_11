@@ -1,0 +1,14 @@
+C:\Kelas_11\PBO\pbo\pbo\bin\Debug\net10.0\pbo.exe
+C:\Kelas_11\PBO\pbo\pbo\bin\Debug\net10.0\pbo.deps.json
+C:\Kelas_11\PBO\pbo\pbo\bin\Debug\net10.0\pbo.runtimeconfig.json
+C:\Kelas_11\PBO\pbo\pbo\bin\Debug\net10.0\pbo.dll
+C:\Kelas_11\PBO\pbo\pbo\bin\Debug\net10.0\pbo.pdb
+C:\Kelas_11\PBO\pbo\pbo\obj\Debug\net10.0\pbo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kelas_11\PBO\pbo\pbo\obj\Debug\net10.0\pbo.AssemblyInfoInputs.cache
+C:\Kelas_11\PBO\pbo\pbo\obj\Debug\net10.0\pbo.AssemblyInfo.cs
+C:\Kelas_11\PBO\pbo\pbo\obj\Debug\net10.0\pbo.csproj.CoreCompileInputs.cache
+C:\Kelas_11\PBO\pbo\pbo\obj\Debug\net10.0\pbo.dll
+C:\Kelas_11\PBO\pbo\pbo\obj\Debug\net10.0\refint\pbo.dll
+C:\Kelas_11\PBO\pbo\pbo\obj\Debug\net10.0\pbo.pdb
+C:\Kelas_11\PBO\pbo\pbo\obj\Debug\net10.0\pbo.genruntimeconfig.cache
+C:\Kelas_11\PBO\pbo\pbo\obj\Debug\net10.0\ref\pbo.dll
