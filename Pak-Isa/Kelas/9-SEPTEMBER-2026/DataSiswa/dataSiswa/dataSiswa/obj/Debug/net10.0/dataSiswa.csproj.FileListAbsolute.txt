@@ -1,0 +1,14 @@
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\bin\Debug\net10.0\dataSiswa.exe
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\bin\Debug\net10.0\dataSiswa.deps.json
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\bin\Debug\net10.0\dataSiswa.runtimeconfig.json
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\bin\Debug\net10.0\dataSiswa.dll
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\bin\Debug\net10.0\dataSiswa.pdb
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\obj\Debug\net10.0\dataSiswa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\obj\Debug\net10.0\dataSiswa.AssemblyInfoInputs.cache
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\obj\Debug\net10.0\dataSiswa.AssemblyInfo.cs
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\obj\Debug\net10.0\dataSiswa.csproj.CoreCompileInputs.cache
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\obj\Debug\net10.0\dataSiswa.dll
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\obj\Debug\net10.0\refint\dataSiswa.dll
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\obj\Debug\net10.0\dataSiswa.pdb
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\obj\Debug\net10.0\dataSiswa.genruntimeconfig.cache
+C:\Kelas_11\Pak-Isa\Kelas\9-SEPTEMBER-2026\DataSiswa\dataSiswa\dataSiswa\obj\Debug\net10.0\ref\dataSiswa.dll

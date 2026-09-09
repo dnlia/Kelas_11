@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../DataSiswa/DataSiswa.csproj" />
+  <Project Path="Jadwal/Jadwal.csproj" />
+</Solution>
