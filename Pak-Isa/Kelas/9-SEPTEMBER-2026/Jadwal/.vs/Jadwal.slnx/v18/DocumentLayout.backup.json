@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Kelas_11\\Pak-Isa\\Kelas\\9-SEPTEMBER-2026\\Jadwal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48F24019-AA74-4F08-A748-4F460E686473}|..\\DataSiswa\\DataSiswa.csproj|c:\\kelas_11\\pak-isa\\kelas\\9-september-2026\\datasiswa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64F066AB-2800-415C-983B-442C7BFF1C4B}|Jadwal\\Jadwal.csproj|c:\\kelas_11\\pak-isa\\kelas\\9-september-2026\\jadwal\\jadwal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64F066AB-2800-415C-983B-442C7BFF1C4B}|Jadwal\\Jadwal.csproj|solutionrelative:jadwal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Kelas_11\\Pak-Isa\\Kelas\\9-SEPTEMBER-2026\\DataSiswa\\Program.cs",
+              "RelativeDocumentMoniker": "..\\DataSiswa\\Program.cs",
+              "ToolTip": "C:\\Kelas_11\\Pak-Isa\\Kelas\\9-SEPTEMBER-2026\\DataSiswa\\Program.cs",
+              "RelativeToolTip": "..\\DataSiswa\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T03:44:35.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Kelas_11\\Pak-Isa\\Kelas\\9-SEPTEMBER-2026\\Jadwal\\Jadwal\\Program.cs",
+              "RelativeDocumentMoniker": "Jadwal\\Program.cs",
+              "ToolTip": "C:\\Kelas_11\\Pak-Isa\\Kelas\\9-SEPTEMBER-2026\\Jadwal\\Jadwal\\Program.cs",
+              "RelativeToolTip": "Jadwal\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T01:39:29.504Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
