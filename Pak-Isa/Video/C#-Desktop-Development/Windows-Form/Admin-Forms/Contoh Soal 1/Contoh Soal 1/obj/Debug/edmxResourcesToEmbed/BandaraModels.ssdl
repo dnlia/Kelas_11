@@ -33,10 +33,9 @@
     <Property Name="BandaraKeberangkatanID" Type="int" Nullable="false" />
     <Property Name="BandaraTujuanID" Type="int" Nullable="false" />
     <Property Name="MaskapaiID" Type="int" Nullable="false" />
-    <Property Name="TanggalKeberangkatan" Type="datetime" Nullable="false" />
+    <Property Name="TanggalWaktuKeberangkatan" Type="datetime" Nullable="false" />
     <Property Name="HargaPerTiket" Type="float" Nullable="false" />
     <Property Name="DurasiPenerbangan" Type="int" Nullable="false" />
-    <Property Name="WaktuKeberangkatan" Type="time" Precision="7" />
   </EntityType>
   <EntityType Name="KodePromo">
     <Key>

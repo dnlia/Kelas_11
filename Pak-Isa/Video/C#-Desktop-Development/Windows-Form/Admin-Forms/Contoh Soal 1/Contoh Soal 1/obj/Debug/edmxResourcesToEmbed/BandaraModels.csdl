@@ -37,6 +37,7 @@
     <Property Name="BandaraKeberangkatanID" Type="Int32" Nullable="false" />
     <Property Name="BandaraTujuanID" Type="Int32" Nullable="false" />
     <Property Name="MaskapaiID" Type="Int32" Nullable="false" />
+    <Property Name="TanggalWaktuKeberangkatan" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="HargaPerTiket" Type="Double" Nullable="false" />
     <Property Name="DurasiPenerbangan" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Bandara" Relationship="Self.FK_JadwalPenerbangan_BandaraKeberangkatan" FromRole="JadwalPenerbangan" ToRole="Bandara" />
@@ -44,8 +45,6 @@
     <NavigationProperty Name="Maskapai" Relationship="Self.FK_JadwalPenerbangan_Maskapai" FromRole="JadwalPenerbangan" ToRole="Maskapai" />
     <NavigationProperty Name="PerubahanStatusJadwalPenerbangans" Relationship="Self.FK_PerubahanStatus_Jadwal" FromRole="JadwalPenerbangan" ToRole="PerubahanStatusJadwalPenerbangan" />
     <NavigationProperty Name="TransaksiHeaders" Relationship="Self.FK_TransaksiHeader_Jadwal" FromRole="JadwalPenerbangan" ToRole="TransaksiHeader" />
-    <Property Name="TanggalKeberangkatan" Type="DateTime" Nullable="false" Precision="3" />
-    <Property Name="WaktuKeberangkatan" Type="Time" Precision="7" />
   </EntityType>
   <EntityType Name="KodePromo">
     <Key>

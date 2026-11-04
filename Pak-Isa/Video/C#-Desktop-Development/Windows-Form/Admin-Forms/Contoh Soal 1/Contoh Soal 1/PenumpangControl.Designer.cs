@@ -28,40 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.fullNameText = new System.Windows.Forms.TextBox();
+            this.numberLabel = new System.Windows.Forms.Label();
+            this.titleBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // fullNameText
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(167, 113);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(524, 31);
-            this.textBox1.TabIndex = 0;
+            this.fullNameText.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fullNameText.Location = new System.Drawing.Point(167, 113);
+            this.fullNameText.Name = "fullNameText";
+            this.fullNameText.Size = new System.Drawing.Size(524, 31);
+            this.fullNameText.TabIndex = 0;
             // 
-            // label1
+            // numberLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(18, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 32);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Penumpang #1";
+            this.numberLabel.AutoSize = true;
+            this.numberLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberLabel.Location = new System.Drawing.Point(18, 19);
+            this.numberLabel.Name = "numberLabel";
+            this.numberLabel.Size = new System.Drawing.Size(186, 32);
+            this.numberLabel.TabIndex = 1;
+            this.numberLabel.Text = "Penumpang #1";
             // 
-            // comboBox1
+            // titleBox
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(167, 66);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(167, 33);
-            this.comboBox1.TabIndex = 2;
+            this.titleBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleBox.FormattingEnabled = true;
+            this.titleBox.Location = new System.Drawing.Point(167, 66);
+            this.titleBox.Name = "titleBox";
+            this.titleBox.Size = new System.Drawing.Size(167, 33);
+            this.titleBox.TabIndex = 2;
+            this.titleBox.Text = "Pilih Titel";
             // 
             // label2
             // 
@@ -94,17 +95,17 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "Isi Nama Sesuai KTP / Paspor / SIM (tanpa tanda baca dan gelar)";
             // 
-            // UserControl1
+            // PenumpangControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.titleBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Name = "UserControl1";
+            this.Controls.Add(this.numberLabel);
+            this.Controls.Add(this.fullNameText);
+            this.Name = "PenumpangControl";
             this.Size = new System.Drawing.Size(725, 186);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -113,9 +114,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox fullNameText;
+        private System.Windows.Forms.Label numberLabel;
+        private System.Windows.Forms.ComboBox titleBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

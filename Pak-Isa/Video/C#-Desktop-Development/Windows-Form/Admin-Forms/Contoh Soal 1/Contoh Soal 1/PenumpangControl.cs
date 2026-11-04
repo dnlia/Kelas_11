@@ -16,5 +16,37 @@ namespace Contoh_Soal
         {
             InitializeComponent();
         }
+
+        public int NomorPenumpang
+        {
+            set
+            {
+                numberLabel.Text = "Penumpang #" + value;
+            }
+        }
+
+        public string Titel
+        {
+            get
+            {
+                return titleBox.Text;
+            }
+        }
+
+        public string NamaLengkap
+        {
+            get
+            {
+                return fullNameText.Text.Trim();
+            }
+        }
+
+        public bool DataSudahLengkap
+        {
+            get
+            {
+                return titleBox.SelectedIndex != 1 && !string.IsNullOrWhiteSpace(fullNameText.Text);
+            }
+        }
     }
 }

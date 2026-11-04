@@ -29,9 +29,9 @@ namespace Contoh_Soal
         public Nullable<int> KodePromoID { get; set; }
     
         public virtual Akun Akun { get; set; }
+        public virtual JadwalPenerbangan JadwalPenerbangan { get; set; }
         public virtual KodePromo KodePromo { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TransaksiDetail> TransaksiDetails { get; set; }
-        public virtual JadwalPenerbangan JadwalPenerbangan { get; set; }
     }
 }

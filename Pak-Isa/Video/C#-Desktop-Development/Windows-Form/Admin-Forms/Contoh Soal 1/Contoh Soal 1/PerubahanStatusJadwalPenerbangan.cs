@@ -20,7 +20,7 @@ namespace Contoh_Soal
         public System.DateTime WaktuPerubahanTerjadi { get; set; }
         public Nullable<int> PerkiraanDurasiDelay { get; set; }
     
-        public virtual StatusPenerbangan StatusPenerbangan { get; set; }
         public virtual JadwalPenerbangan JadwalPenerbangan { get; set; }
+        public virtual StatusPenerbangan StatusPenerbangan { get; set; }
     }
 }

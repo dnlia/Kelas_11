@@ -32,9 +32,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridTiket = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KodePenerbangan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Maskapai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BandaraKeberangkatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BandaraTujuan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TanggalKeberangkatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.WaktuPenerbangan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StatusTerakhir = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridTiket)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -66,31 +74,106 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // dataGridView1
+            // dataGridTiket
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 96);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1296, 342);
-            this.dataGridView1.TabIndex = 21;
+            this.dataGridTiket.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridTiket.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.KodePenerbangan,
+            this.Maskapai,
+            this.BandaraKeberangkatan,
+            this.BandaraTujuan,
+            this.TanggalKeberangkatan,
+            this.WaktuPenerbangan,
+            this.StatusTerakhir});
+            this.dataGridTiket.Location = new System.Drawing.Point(16, 96);
+            this.dataGridTiket.Name = "dataGridTiket";
+            this.dataGridTiket.RowHeadersWidth = 62;
+            this.dataGridTiket.RowTemplate.Height = 28;
+            this.dataGridTiket.Size = new System.Drawing.Size(1255, 342);
+            this.dataGridTiket.TabIndex = 22;
+            // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 8;
+            this.ID.Name = "ID";
+            this.ID.Width = 150;
+            // 
+            // KodePenerbangan
+            // 
+            this.KodePenerbangan.DataPropertyName = "KodePenerbangan";
+            this.KodePenerbangan.HeaderText = "Kode Penerbangan";
+            this.KodePenerbangan.MinimumWidth = 8;
+            this.KodePenerbangan.Name = "KodePenerbangan";
+            this.KodePenerbangan.Width = 150;
+            // 
+            // Maskapai
+            // 
+            this.Maskapai.DataPropertyName = "Maskapai";
+            this.Maskapai.HeaderText = "Maskapai";
+            this.Maskapai.MinimumWidth = 8;
+            this.Maskapai.Name = "Maskapai";
+            this.Maskapai.Width = 150;
+            // 
+            // BandaraKeberangkatan
+            // 
+            this.BandaraKeberangkatan.DataPropertyName = "BandaraKeberangkatan";
+            this.BandaraKeberangkatan.HeaderText = "Bandara Keberangkatan";
+            this.BandaraKeberangkatan.MinimumWidth = 8;
+            this.BandaraKeberangkatan.Name = "BandaraKeberangkatan";
+            this.BandaraKeberangkatan.Width = 150;
+            // 
+            // BandaraTujuan
+            // 
+            this.BandaraTujuan.DataPropertyName = "BandaraTujuan";
+            this.BandaraTujuan.HeaderText = "Bandara Tujuan";
+            this.BandaraTujuan.MinimumWidth = 8;
+            this.BandaraTujuan.Name = "BandaraTujuan";
+            this.BandaraTujuan.Width = 150;
+            // 
+            // TanggalKeberangkatan
+            // 
+            this.TanggalKeberangkatan.DataPropertyName = "TanggalKeberangkatan";
+            this.TanggalKeberangkatan.HeaderText = "Tanggal Keberangkatan";
+            this.TanggalKeberangkatan.MinimumWidth = 8;
+            this.TanggalKeberangkatan.Name = "TanggalKeberangkatan";
+            this.TanggalKeberangkatan.Width = 150;
+            // 
+            // WaktuPenerbangan
+            // 
+            this.WaktuPenerbangan.DataPropertyName = "WaktuPenerbangan";
+            this.WaktuPenerbangan.HeaderText = "Waktu Penerbangan";
+            this.WaktuPenerbangan.MinimumWidth = 8;
+            this.WaktuPenerbangan.Name = "WaktuPenerbangan";
+            this.WaktuPenerbangan.Width = 150;
+            // 
+            // StatusTerakhir
+            // 
+            this.StatusTerakhir.DataPropertyName = "StatusTerakhir";
+            this.StatusTerakhir.HeaderText = "Status Terakhir";
+            this.StatusTerakhir.MinimumWidth = 8;
+            this.StatusTerakhir.Name = "StatusTerakhir";
+            this.StatusTerakhir.Width = 150;
             // 
             // Form12TiketSaya
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1332, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(1288, 450);
+            this.Controls.Add(this.dataGridTiket);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form12TiketSaya";
             this.Text = "Form12TiketSaya";
+            this.Load += new System.EventHandler(this.Form12TiketSaya_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridTiket)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,6 +184,14 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridTiket;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn KodePenerbangan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Maskapai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BandaraKeberangkatan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BandaraTujuan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TanggalKeberangkatan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn WaktuPenerbangan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StatusTerakhir;
     }
 }

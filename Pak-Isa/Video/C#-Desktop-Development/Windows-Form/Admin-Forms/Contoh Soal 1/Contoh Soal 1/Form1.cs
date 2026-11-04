@@ -1,4 +1,5 @@
 ﻿using Contoh_Soal;
+using ContohSoal;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -32,24 +33,36 @@ namespace Contoh_Soal_1
         {
             if (usernameTxt.Text == "" || passwordTxt.Text == "")
             {
+                // Jika textbox kosong proses login dihentikan
                 MessageBox.Show("Username dan Password harus diisi");
                 return;
             }
 
-            var user = db.Akuns.FirstOrDefault(a => a.Username == usernameTxt.Text
-            && a.Password == passwordTxt.Text);
+            // Cari Akun berdasarkan username dan password
+            var user = db.Akuns.FirstOrDefault(a => a.Username == usernameTxt.Text && a.Password == passwordTxt.Text);
 
-            if (user != null)
+            // Cek User
+            if (user == null) // Jika user tidak ditemukan
             {
-                MessageBox.Show("Login Berhasil");
+                MessageBox.Show("Password atau Username salah");
+                return;
+            }
 
+            MessageBox.Show("Login Berhasil"); // Messagebox tampil
+            Session.loggedIn = user;
+
+            if (user.MerupakanAdmin)
+            {
+                // Masuk ke dashboard
                 Form3Dashboard dashboard = new Form3Dashboard();
                 dashboard.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Password atau Username salah");
+                Form9CustomerMain customer = new Form9CustomerMain();
+                customer.Show();
+                this.Hide();
             }
         }
     }

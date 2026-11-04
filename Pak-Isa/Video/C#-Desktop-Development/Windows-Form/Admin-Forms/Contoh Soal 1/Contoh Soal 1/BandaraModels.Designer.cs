@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\BandaraModels.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\BandaraModels.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

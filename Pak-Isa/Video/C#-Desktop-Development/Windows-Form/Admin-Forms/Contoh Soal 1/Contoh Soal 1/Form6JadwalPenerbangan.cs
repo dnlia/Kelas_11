@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -162,23 +163,20 @@ namespace Contoh_Soal_1
         private void loadJadwal()
         {
             dataGridJadwal.DataSource = db.JadwalPenerbangans
-                                          .OrderByDescending(j => j.TanggalWaktuKeberangkatan)
-                                          .ThenByDescending(j => j.WaktuKeberangkatan)
-                                          .ToList()
-                                          .Select(j => new
-                                          {
-                                              j.ID,
-                                              j.KodePenerbangan,
-                                              BandaraAsal = j.Bandara.Nama,
-                                              BandaraTujuan = j.Bandara1.Nama,
-                                              Maskapai = j.Maskapai.Nama,
-                                              Tanggal = j.TanggalWaktuKeberangkatan.ToString("dd/MM/yy"),
-                                              WaktuKeberangkatan = j.TanggalWaktuKeberangkatan.ToString("HH:mm"),
-                                              Durasi = (j.DurasiPenerbangan / 60) + " Jam " + (j.DurasiPenerbangan - 60) + " Menit",
-                                              j.HargaPerTiket
-
-                                          }).ToList();
-
+                                        .OrderByDescending(j => j.TanggalWaktuKeberangkatan)
+                                        .ToList()
+                                        .Select(j => new
+                                        {
+                                            j.ID,
+                                            j.KodePenerbangan,
+                                            BandaraAsal = j.Bandara.Nama,
+                                            BandaraTujuan = j.Bandara1.Nama,
+                                            Maskapai = j.Maskapai.Nama,
+                                            TanggalKeberangkatan = j.TanggalWaktuKeberangkatan.ToString("dd/MM/yy"),
+                                            WaktuKeberangkatan = j.TanggalWaktuKeberangkatan.ToString("HH:mm"),
+                                            DurasiPenerbangan = (j.DurasiPenerbangan / 60) + " Jam " + (j.DurasiPenerbangan % 60) + " Menit ",
+                                            j.HargaPerTiket
+                                        }).ToList();
         }
 
         private void clearForm()
@@ -307,6 +305,7 @@ namespace Contoh_Soal_1
             if (idJadwal == -1)
             {
                 JadwalPenerbangan jadwalBaru = new JadwalPenerbangan();
+                PerubahanStatusJadwalPenerbangan statusJadwal = new PerubahanStatusJadwalPenerbangan();
 
                 jadwalBaru.KodePenerbangan = kodeTxt.Text;
                 jadwalBaru.BandaraKeberangkatanID = Convert.ToInt32(dariBox.SelectedValue);
@@ -319,9 +318,13 @@ namespace Contoh_Soal_1
                 db.JadwalPenerbangans.Add(jadwalBaru);
                 db.SaveChanges();
 
+                statusJadwal.JadwalPenerbanganID = jadwalBaru.ID;
+                statusJadwal.StatusPenerbanganID = 1;
+                statusJadwal.WaktuPerubahanTerjadi = DateTime.Now;
+                statusJadwal.PerkiraanDurasiDelay = null;
+
+                db.PerubahanStatusJadwalPenerbangans.Add(statusJadwal);
                 MessageBox.Show("Jadwal berhasil dibuat");
-                clearForm();
-                loadJadwal();
             }
             else
             {
@@ -336,9 +339,11 @@ namespace Contoh_Soal_1
                 editJadwal.HargaPerTiket = Convert.ToInt32(hargaCount.Value);
 
                 MessageBox.Show("Jadwal berhasil diubah");
-                clearForm();
-                loadJadwal();
             }
+
+            db.SaveChanges();
+            clearForm();
+            loadJadwal();
         }
 
         private void dataGridJadwal_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -355,15 +360,15 @@ namespace Contoh_Soal_1
                 JadwalPenerbangan editJadwal = db.JadwalPenerbangans.Find(idJadwal);
 
                 int jam = editJadwal.DurasiPenerbangan / 60;
-                int menit = editJadwal.DurasiPenerbangan - 60;
+                int menit = editJadwal.DurasiPenerbangan % 60;
                 string menitDurasi = jam + " Jam " + menit + " Menit";
 
                 kodeTxt.Text = editJadwal.KodePenerbangan;
                 dariBox.SelectedValue = editJadwal.BandaraKeberangkatanID;
                 destinasiBox.SelectedValue = editJadwal.BandaraTujuanID;
                 maskapaiBox.SelectedValue = editJadwal.MaskapaiID;
-                TanggalDate.Value = editJadwal.TanggalKeberangkatan;
-                waktuTime.Value = DateTime.Today + editJadwal.WaktuKeberangkatan.Value;
+                TanggalDate.Value = editJadwal.TanggalWaktuKeberangkatan;
+                waktuTime.Value = editJadwal.TanggalWaktuKeberangkatan;
                 durasiTxt.Text = menitDurasi;
                 hargaCount.Value = Convert.ToInt32(editJadwal.HargaPerTiket);
 

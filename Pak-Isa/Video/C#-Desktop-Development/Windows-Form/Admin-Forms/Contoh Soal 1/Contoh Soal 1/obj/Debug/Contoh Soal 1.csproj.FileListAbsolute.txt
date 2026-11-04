@@ -25,3 +25,30 @@ C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh
 C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\EntityFramework.xml
 C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\EntityFramework.SqlServer.xml
 C:\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh S.EBCF1F56.Up2Date
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal 1.csproj.AssemblyReference.cache
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form1Login.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal.Form10ListPenerbangan.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal.Form11BeliTiket.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal.Form12TiketSaya.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form2Register.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form3Dashboard.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form4Bandara.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form6JadwalPenerbangan.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form5Maskapai.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form7KodePromo.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal_1.Form8UbahStatusPenerbangan.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal.Form9CustomerMain.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal.Properties.Resources.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh_Soal.PenumpangControl.resources
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal 1.csproj.GenerateResource.cache
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal 1.csproj.CoreCompileInputs.cache
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal.exe
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh Soal.pdb
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\Contoh Soal.exe.config
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\Contoh Soal.exe
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\Contoh Soal.pdb
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\EntityFramework.dll
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\EntityFramework.SqlServer.dll
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\EntityFramework.xml
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\bin\Debug\EntityFramework.SqlServer.xml
+C:\my-workspace\business\github\dinda-aulia\Kelas_11\Pak-Isa\Video\C#-Desktop-Development\Windows-Form\Admin-Forms\Contoh Soal 1\Contoh Soal 1\obj\Debug\Contoh S.EBCF1F56.Up2Date

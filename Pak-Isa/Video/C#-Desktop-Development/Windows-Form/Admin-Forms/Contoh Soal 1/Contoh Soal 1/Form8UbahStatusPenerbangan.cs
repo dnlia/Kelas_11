@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Contoh_Soal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,9 @@ namespace Contoh_Soal_1
 {
     public partial class Form8UbahStatusPenerbangan : Form
     {
+        BandaraEntities db = new BandaraEntities();
+        private int idStatus;
+
         public Form8UbahStatusPenerbangan()
         {
             InitializeComponent();
@@ -113,6 +117,36 @@ namespace Contoh_Soal_1
             Form8UbahStatusPenerbangan status = new Form8UbahStatusPenerbangan();
             this.Close();
             status.Show();
+        }
+
+        private void LoadStatus()
+        {
+            statusBox.DataSource = db.StatusPenerbangans.ToList();
+            statusBox.ValueMember = "ID";
+            statusBox.DisplayMember = "Nama";
+            statusBox.SelectedIndex = -1;
+        }
+
+        private void LoadData()
+        {
+            dataGridStatus.DataSource = db.PerubahanStatusJadwalPenerbangans.Select(s => new
+            {
+                s.ID,
+                s.JadwalPenerbanganID,
+                kodePenerbangan = s.JadwalPenerbangan.KodePenerbangan,
+                bandaraAwal = s.JadwalPenerbangan.Bandara.Nama,
+                bandaraTujuan = s.JadwalPenerbangan.Bandara1.Nama,
+                maskapai = s.JadwalPenerbangan.Maskapai.Nama,
+                tanggalKeberangkatan = s.JadwalPenerbangan.TanggalWaktuKeberangkatan,
+                durasiPenerbangan = (s.JadwalPenerbangan.DurasiPenerbangan / 60) + " Jam " + (s.JadwalPenerbangan.DurasiPenerbangan % 60) + " Menit ",
+                statusPenerbangan = s.StatusPenerbangan.Nama,
+                s.WaktuPerubahanTerjadi
+            }).ToList();
+        }
+
+        private void dataGridStatus_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

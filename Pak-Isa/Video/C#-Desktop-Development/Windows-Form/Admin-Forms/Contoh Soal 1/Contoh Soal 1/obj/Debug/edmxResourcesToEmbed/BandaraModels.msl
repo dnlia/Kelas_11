@@ -30,13 +30,12 @@
     <EntitySetMapping Name="JadwalPenerbangans">
       <EntityTypeMapping TypeName="BromoAirlinesModel.JadwalPenerbangan">
         <MappingFragment StoreEntitySet="JadwalPenerbangan">
-          <ScalarProperty Name="WaktuKeberangkatan" ColumnName="WaktuKeberangkatan" />
-          <ScalarProperty Name="TanggalKeberangkatan" ColumnName="TanggalKeberangkatan" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="KodePenerbangan" ColumnName="KodePenerbangan" />
           <ScalarProperty Name="BandaraKeberangkatanID" ColumnName="BandaraKeberangkatanID" />
           <ScalarProperty Name="BandaraTujuanID" ColumnName="BandaraTujuanID" />
           <ScalarProperty Name="MaskapaiID" ColumnName="MaskapaiID" />
+          <ScalarProperty Name="TanggalWaktuKeberangkatan" ColumnName="TanggalWaktuKeberangkatan" />
           <ScalarProperty Name="HargaPerTiket" ColumnName="HargaPerTiket" />
           <ScalarProperty Name="DurasiPenerbangan" ColumnName="DurasiPenerbangan" />
         </MappingFragment>
